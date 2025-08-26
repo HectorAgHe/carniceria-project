@@ -1,13 +1,14 @@
 import React from 'react'
-import './index.css' // Importante para Tailwind CSS
+import './index.css' // Importante para Tailwind 
+import {Routes,Route} from 'react-router-dom'
+import Catalog from './pages/Catalog'
 
 
 function App() {
   return (
-    <h1 className="text-4xl font-bold text-blue-500">
-      Hola mundo 🚀
-      Checa tu rama😊
-    </h1>
+    <Routes>
+      <Route path="/catalog" element={<Catalog/>} />
+    </Routes>
   )
 }
 
