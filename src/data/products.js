@@ -14,5 +14,13 @@ export const products = [
     image: "/assets/products/costilla.png",
     types: ["Para Azar", "Corte Cuadrado","Corte Carrillera"],
     
+  },
+  {
+    id: 3,
+    title: "BeafSteak",
+    description: "Meat from Pig.",
+    image: "/assets/products/beafsteak.png",
+    types: ["Para Azar","Para empanizar", "Corte Grueso","Corte Delgado"],
+    
   }
 ];
