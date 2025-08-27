@@ -28,10 +28,10 @@ const Navbar = () => {
 
         {/* Enlaces grandes */}
         <ul className="hidden lg:flex gap-8 text-gray-700 font-medium">
-          <li><a href="#" className="hover:text-yellow-400 transition">Home</a></li>
-          <li><a href="#" className="hover:text-green-600 transition">Acerca</a></li>
-          <li><a href="#" className="hover:text-green-600 transition">Catalogo</a></li>
-          <li><a href="#" className="hover:text-green-600 transition">Contacto</a></li>
+          <li><a href="#" className="hover:text-my-red transition">Home</a></li>
+          <li><a href="#" className="hover:text-my-red transition">Acerca</a></li>
+          <li><a href="#" className="hover:text-my-red transition">Catalogo</a></li>
+          <li><a href="#" className="hover:text-my-red transition">Contacto</a></li>
         </ul>
       </div>
 

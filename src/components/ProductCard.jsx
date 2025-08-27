@@ -16,7 +16,7 @@ function ProductCard(props) {
             })}
         </div>
         <div className='mt-10 flex justify-center' >
-         <button className='bg-red-500 text-white w-64 border rounded-lg' >Detalles</button>
+         <button className='bg-my-red text-white w-64 border rounded-lg' >Detalles</button>
         </div>
     </section>
   )
