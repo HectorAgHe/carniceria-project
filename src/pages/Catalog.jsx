@@ -1,10 +1,13 @@
 import React from 'react'
 import { products } from '../data/products'
 import ProductCard from '../components/ProductCard'
+import NavBar from '../components/NavBar'
 
 function Catalog() {
   return (
-    <section>
+    <main>
+        <NavBar/>
+        <section className='flex justify-center gap-10 mt-20' >
         {products.map((product)=>(
             <ProductCard
              key={product.id}
@@ -15,6 +18,7 @@ function Catalog() {
             />
         ))}
     </section>
+    </main>
   )
 }
 
